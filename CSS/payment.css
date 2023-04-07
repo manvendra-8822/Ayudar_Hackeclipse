@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1515px;
+    height: 882px;
+    background-image: url(../images/payment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav-bar {
+background-color:black;
+position: absolute;
+width: 1515px;
+height: 80px;
+left: -1px;
+top: 0px;
+
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+#logo-name {
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: white;
+}
+#tagline {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 41px;
+    color: white;
+}
+.payment
+{
+    /* position: absolute; */
+    /* background-image: url(/images/pexels-deva-darshan-1173777.jpg); */
+    height: 882px;
+    width: 1515px;
+}
+#background
+{
+    top:80px;
+    position: relative;
+    height: 882px;
+    width: 1515px;
+    background-color: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
