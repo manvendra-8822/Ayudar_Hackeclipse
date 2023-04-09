@@ -8,13 +8,26 @@
     text-decoration: none;
     font-family: Montserrat, sans-serif;
 }
+body {
+    /* width: 1515px;
+    height: 882px; */
+    width: 1600px;
+    background: url("/images/pexels-deva-darshan-1173777.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    overflow-x :hidden; 
+    /* text-align: center; */
+}
 
 .container {
 
     /* width: 1440px;
     height: 1600px; */
-    width:100vw;
-    min-height: 100vw;
+    width:1400px;
+    height: 800px;
     display: grid;
     place-items: center;
 }
@@ -136,9 +149,9 @@ body {
 
 .about {
     position: absolute;
-    width: 1229px;
-    height: 1300px;
-    left: 475px;
+    width: 1230px;
+    height: 1200px;
+    left: 120px;
     top: 188px;
     background: rgba(217, 217, 217, 0.7);
     border-radius: 20px;
